@@ -1,0 +1,128 @@
+
+
+
+[
+    {
+        "id": 1001,
+        "type": "Lines",
+        "rules":[
+                {
+                    "id": 1001,
+                    "name": "Shit for Brains",
+                    "type": "Unlimited",
+                    "points": "500",
+                    "description": "Ski the line top to bottom."
+                },
+                {
+                    "id": 1002,
+                    "name": "Wilson Peak",
+                    "type": "Unlimited",
+                    "points": "2000",
+                    "description": "Ski the line top to bottom."
+                }
+        ]
+            
+    },
+    {
+        "id": 1002,
+        "type": "Extra Credit Points",
+        "rules":[
+            
+                {
+                    "id": 2001,
+                    "name": "Ego Claim",
+                    "type": "Unlimited",
+                    "points": "50",
+                    "description": "go up to random group of people: exclaim I'm the best skier on the mountian"
+                },
+                {
+                    "id": 2002,
+                    "name": "Butt Naked",
+                    "type": "Unlimited",
+                    "points": "2000",
+                    "description": "ski any line butt naked"
+                },
+                {
+                    "id": 2003,
+                    "name": "Sticker Art",
+                    "type": "Yearly",
+                    "points": "10,000",
+                    "description": "Make a your own sticker out of resort stickers and place on car for season."
+                },
+                {
+                    "id": 2004,
+                    "name": "Fart Bag",
+                    "type": "Daily",
+                    "points": "50",
+                    "description": "Be the first member of your group to spot a onesie and claim it that day."
+                },
+                {
+                    "id": 2005,
+                    "name": "The Gnome",
+                    "type": "Yearly",
+                    "points": "1,000,000",
+                    "description": "Find the magical woodland gnome and give it an altiod hummer."
+                }
+                
+        ]
+            
+    },
+    {
+        "id": 1003,
+        "type": "Tricks",
+        "rules":[
+            
+                {
+                    "id": 3001,
+                    "name": "180",
+                    "type": "Unlimited",
+                    "points": "100",
+                    "description": "Do a 180 any direction."
+                },
+                {
+                    "id": 3002,
+                    "name": "360",
+                    "type": "Unlimited",
+                    "points": "150",
+                    "description": "Do a 360 any direction."
+                }
+        ]
+            
+    },
+    {
+        "id": 1004,
+        "type": "Penalties",
+        "rules":[
+            
+                {
+                    "id": 4001,
+                    "name": "Month Ender",
+                    "type": "Penalty",
+                    "points": "-10,000",
+                    "description": "Month ending injury"
+                },
+                {
+                    "id": 4002,
+                    "name": "Fear of Heights",
+                    "type": "Penalty",
+                    "points": "-500",
+                    "description": "Get caught lowering the sissy bar."
+                },
+                {
+                    "id": 4003,
+                    "name": "Lose a Ski",
+                    "type": "Penalty",
+                    "points": "-2,000",
+                    "description": "Lose a ski"
+                },
+                {
+                    "id": 4004,
+                    "name": "Gaper Gap",
+                    "type": "Penalty",
+                    "points": "-500",
+                    "description": "Get caught rocking a gap between hat and goggles."
+                }
+        ]
+    }
+]
+

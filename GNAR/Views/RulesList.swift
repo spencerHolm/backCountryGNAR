@@ -33,9 +33,13 @@ struct RulesList: View {
                     }
                 }
                 
-                    .navigationTitle("Backcountry G.N.A.R.")
+                    .navigationTitle("GNAR Points")
             }
+            //.background(Color.blue)
         }
+        .navigationBarBackButtonHidden(true)
+        .navigationBarHidden(true)
+        
     }
 }
 

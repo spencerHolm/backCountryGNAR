@@ -99,7 +99,7 @@
                     "name": "Month Ender",
                     "type": "Penalty",
                     "points": "-10,000",
-                    "description": "Month ending injury"
+                    "description": "Month ending injury to be added when resuming skiing."
                 },
                 {
                     "id": 4002,
@@ -113,7 +113,7 @@
                     "name": "Lose a Ski",
                     "type": "Penalty",
                     "points": "-2,000",
-                    "description": "Lose a ski"
+                    "description": "Have a ski unintentionally eject at a fovorable or unfavorable time."
                 },
                 {
                     "id": 4004,
@@ -121,6 +121,13 @@
                     "type": "Penalty",
                     "points": "-500",
                     "description": "Get caught rocking a gap between hat and goggles."
+                },
+                {
+                    "id": 4005,
+                    "name": "Skimo Slut",
+                    "type": "Penalty",
+                    "points": "-10,000",
+                    "description": "Participate in any length ski mountaineering race and when asked how it went unsarcasticaly utter the word fun."
                 }
         ]
     }

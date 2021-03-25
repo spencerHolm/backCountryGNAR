@@ -15,6 +15,7 @@
 		1D10C0D826014B420076565C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D10C0D626014B420076565C /* LaunchScreen.storyboard */; };
 		1D10C0E126014B910076565C /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D10C0E026014B910076565C /* rules.json */; };
 		1D10C0E426015CDA0076565C /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10C0E326015CDA0076565C /* Rules.swift */; };
+		1D47E723260829D200BEF25C /* GnarLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D47E722260829D200BEF25C /* GnarLogin.swift */; };
 		1D602A1A26031761007B7EE4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A1926031761007B7EE4 /* Helper.swift */; };
 		1D602A2726032414007B7EE4 /* RulesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A2626032414007B7EE4 /* RulesRow.swift */; };
 		1D602A2A2603ED26007B7EE4 /* RulesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A292603ED26007B7EE4 /* RulesList.swift */; };
@@ -33,6 +34,7 @@
 		1D10C0D926014B420076565C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D10C0E026014B910076565C /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
 		1D10C0E326015CDA0076565C /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
+		1D47E722260829D200BEF25C /* GnarLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnarLogin.swift; sourceTree = "<group>"; };
 		1D602A1926031761007B7EE4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1D602A2626032414007B7EE4 /* RulesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesRow.swift; sourceTree = "<group>"; };
 		1D602A292603ED26007B7EE4 /* RulesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesList.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				1D602A2626032414007B7EE4 /* RulesRow.swift */,
 				1D602A292603ED26007B7EE4 /* RulesList.swift */,
 				1D602A2C2603F6AE007B7EE4 /* RulesDetail.swift */,
+				1D47E722260829D200BEF25C /* GnarLogin.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				1D602A2726032414007B7EE4 /* RulesRow.swift in Sources */,
 				1D10C0D026014B400076565C /* ContentView.swift in Sources */,
 				1D602A2A2603ED26007B7EE4 /* RulesList.swift in Sources */,
+				1D47E723260829D200BEF25C /* GnarLogin.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ class GameSettings: ObservableObject{
 struct ContentView: View {
     
     var body: some View {
-        RulesList().environmentObject(GameSettings())
+        GnarLogin().environmentObject(GameSettings())
     }
 }
 

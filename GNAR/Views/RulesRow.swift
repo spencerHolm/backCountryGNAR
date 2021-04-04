@@ -17,7 +17,7 @@ struct RulesRow: View {
                 .font(.title2)
             Spacer()
             
-            Text(pointsList.points)
+            Text("\(pointsList.points) pts")
                 .font(.title2)
         }
         .padding()

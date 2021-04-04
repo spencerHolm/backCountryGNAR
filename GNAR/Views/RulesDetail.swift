@@ -14,51 +14,53 @@ struct RulesDetail: View {
     var points: Points
     
     var body: some View {
-        
-        VStack{
-        VStack(alignment: .leading){
-            
-            Text("Type: \(points.type)")
-                .font(.title2)
-                .foregroundColor(.secondary)
-            HStack{
-                Text(points.name)
-                Spacer()
-                Text("\(points.points) pts")
+        ZStack{
+            Color.init(red: 90.0/255.0, green: 205.0/255.0, blue: 255.0/255.0).ignoresSafeArea()
+            VStack{
+                VStack(alignment: .leading){
                     
-            }
-            .font(.title)
+                    Text("Type: \(points.type)")
+                        .font(.title2)
+                        .foregroundColor(.secondary)
+                    HStack{
+                        Text(points.name)
+                        Spacer()
+                        Text("\(points.points) pts")
+                            
+                    }
+                    .font(.title)
+                    
+                    Divider()
+                    
+                    Text("Description:")
+                        .font(.title2)
+                        .foregroundColor(.secondary)
+                    
+                    Text(points.description)
+                        
+                    .navigationTitle(points.name)
+                        .navigationBarTitleDisplayMode(.automatic)
+                }
             
-            Divider()
-            
-            Text("Description:")
-                .font(.title2)
-                .foregroundColor(.secondary)
-            
-            Text(points.description)
                 
-            .navigationTitle(points.name)
-                .navigationBarTitleDisplayMode(.automatic)
-        }
-        
-            
-            Button(action: {
-                settings.score += strToInt(str: points.points)
-            }){
-                Text("Add")
+                Button(action: {
+                    settings.score += strToInt(str: points.points)
+                }){
+                    Text("Add")
+                }
+                .buttonStyle(CustomButtonStyle())
+                
+                Button(action: {
+                    settings.score -= strToInt(str: points.points)
+                }){
+                    Text("Remove")
+                }
+                .buttonStyle(RemoveButtonStyle())
+                
+                Spacer()
             }
-            .buttonStyle(CustomButtonStyle())
-            
-            Button(action: {
-                settings.score -= strToInt(str: points.points)
-            }){
-                Text("Remove")
-            }
-            .buttonStyle(RemoveButtonStyle())
-            
-            Spacer()
+            .padding()
         }
-        .padding()
     }
 }
 

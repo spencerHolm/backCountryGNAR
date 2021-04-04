@@ -12,30 +12,35 @@ struct RulesList: View {
     
     var body: some View {
         NavigationView{
-            VStack{
-                Text("Score:")
-                    .font(.title2)
-                    .foregroundColor(.secondary)
-                Text("\(settings.score)")
-                    .font(.system(size: 60, weight: .bold))
-                    //.padding()
-                
-                List(){
-                    ForEach(ruleslist) { rule in
-                        
-                        Section(header: Text(rule.type)){
-                            ForEach(rule.rules){ item in
-                                NavigationLink(destination: RulesDetail(points: item)){
-                                    RulesRow(pointsList: item)
+            ZStack{
+                Color.init(red: 90.0/255.0, green: 205.0/255.0, blue: 255.0/255.0).ignoresSafeArea()
+                VStack{
+                    Text("Score:")
+                        .font(.title2)
+                        .foregroundColor(.secondary)
+                    Text("\(settings.score)")
+                        .font(.system(size: 60, weight: .bold))
+                        //.padding()
+                    
+                    List(){
+                        ForEach(ruleslist) { rule in
+                            
+                            Section(header: Text(rule.type)){
+                                ForEach(rule.rules){ item in
+                                    NavigationLink(destination: RulesDetail(points: item)){
+                                        RulesRow(pointsList: item)
+                                    }
                                 }
                             }
                         }
+                        
                     }
-                }
-                
+                    .background(Color.init(red: 90.0/255.0, green: 205.0/255.0, blue: 255.0/255.0))
+                    
                     .navigationTitle("GNAR Points")
+                }
+                //.background(Color.blue)
             }
-            //.background(Color.blue)
         }
         .navigationBarBackButtonHidden(true)
         .navigationBarHidden(true)

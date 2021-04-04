@@ -16,11 +16,14 @@
 		1D10C0E126014B910076565C /* rules.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D10C0E026014B910076565C /* rules.json */; };
 		1D10C0E426015CDA0076565C /* Rules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D10C0E326015CDA0076565C /* Rules.swift */; };
 		1D47E723260829D200BEF25C /* GnarLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D47E722260829D200BEF25C /* GnarLogin.swift */; };
+		1D47E7262611766500BEF25C /* GnarSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D47E7252611766500BEF25C /* GnarSignUp.swift */; };
+		1D47E72926168D0A00BEF25C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D47E72826168D0A00BEF25C /* GoogleService-Info.plist */; };
 		1D602A1A26031761007B7EE4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A1926031761007B7EE4 /* Helper.swift */; };
 		1D602A2726032414007B7EE4 /* RulesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A2626032414007B7EE4 /* RulesRow.swift */; };
 		1D602A2A2603ED26007B7EE4 /* RulesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A292603ED26007B7EE4 /* RulesList.swift */; };
 		1D602A2D2603F6AE007B7EE4 /* RulesDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A2C2603F6AE007B7EE4 /* RulesDetail.swift */; };
 		1D602A302604593C007B7EE4 /* CustomButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D602A2F2604593B007B7EE4 /* CustomButtonStyle.swift */; };
+		85BA0418DA8621AB83766EB9 /* Pods_GNAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC5287098B77681E7B8306F /* Pods_GNAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,11 +38,16 @@
 		1D10C0E026014B910076565C /* rules.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = rules.json; sourceTree = "<group>"; };
 		1D10C0E326015CDA0076565C /* Rules.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rules.swift; sourceTree = "<group>"; };
 		1D47E722260829D200BEF25C /* GnarLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnarLogin.swift; sourceTree = "<group>"; };
+		1D47E7252611766500BEF25C /* GnarSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GnarSignUp.swift; sourceTree = "<group>"; };
+		1D47E72826168D0A00BEF25C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1D602A1926031761007B7EE4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		1D602A2626032414007B7EE4 /* RulesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesRow.swift; sourceTree = "<group>"; };
 		1D602A292603ED26007B7EE4 /* RulesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesList.swift; sourceTree = "<group>"; };
 		1D602A2C2603F6AE007B7EE4 /* RulesDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesDetail.swift; sourceTree = "<group>"; };
 		1D602A2F2604593B007B7EE4 /* CustomButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonStyle.swift; sourceTree = "<group>"; };
+		67614EEE07CF9E74FF3DCCFF /* Pods-GNAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNAR.release.xcconfig"; path = "Target Support Files/Pods-GNAR/Pods-GNAR.release.xcconfig"; sourceTree = "<group>"; };
+		8CC5287098B77681E7B8306F /* Pods_GNAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		962E259E9CBBFCAC2E4BAEE7 /* Pods-GNAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNAR.debug.xcconfig"; path = "Target Support Files/Pods-GNAR/Pods-GNAR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85BA0418DA8621AB83766EB9 /* Pods_GNAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +67,8 @@
 			children = (
 				1D10C0CA26014B400076565C /* GNAR */,
 				1D10C0C926014B400076565C /* Products */,
+				2324FE91D2C4C371A7EC2E41 /* Pods */,
+				44E0BF796A55A6CAF9687E17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +90,7 @@
 				1D10C0D126014B420076565C /* Assets.xcassets */,
 				1D10C0D626014B420076565C /* LaunchScreen.storyboard */,
 				1D10C0D926014B420076565C /* Info.plist */,
+				1D47E72826168D0A00BEF25C /* GoogleService-Info.plist */,
 				1D10C0D326014B420076565C /* Preview Content */,
 				1D602A202603234C007B7EE4 /* Resources */,
 			);
@@ -119,8 +131,27 @@
 				1D602A292603ED26007B7EE4 /* RulesList.swift */,
 				1D602A2C2603F6AE007B7EE4 /* RulesDetail.swift */,
 				1D47E722260829D200BEF25C /* GnarLogin.swift */,
+				1D47E7252611766500BEF25C /* GnarSignUp.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2324FE91D2C4C371A7EC2E41 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				962E259E9CBBFCAC2E4BAEE7 /* Pods-GNAR.debug.xcconfig */,
+				67614EEE07CF9E74FF3DCCFF /* Pods-GNAR.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		44E0BF796A55A6CAF9687E17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC5287098B77681E7B8306F /* Pods_GNAR.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D10C0DC26014B420076565C /* Build configuration list for PBXNativeTarget "GNAR" */;
 			buildPhases = (
+				6A0F4C766BB700D2098D28CA /* [CP] Check Pods Manifest.lock */,
 				1D10C0C426014B400076565C /* Sources */,
 				1D10C0C526014B400076565C /* Frameworks */,
 				1D10C0C626014B400076565C /* Resources */,
+				153BDB18A2718FD26C14D31B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,12 +215,55 @@
 			files = (
 				1D10C0D826014B420076565C /* LaunchScreen.storyboard in Resources */,
 				1D10C0E126014B910076565C /* rules.json in Resources */,
+				1D47E72926168D0A00BEF25C /* GoogleService-Info.plist in Resources */,
 				1D10C0D526014B420076565C /* Preview Assets.xcassets in Resources */,
 				1D10C0D226014B420076565C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		153BDB18A2718FD26C14D31B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GNAR/Pods-GNAR-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GNAR/Pods-GNAR-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GNAR/Pods-GNAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A0F4C766BB700D2098D28CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GNAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D10C0C426014B400076565C /* Sources */ = {
@@ -196,6 +272,7 @@
 			files = (
 				1D602A302604593C007B7EE4 /* CustomButtonStyle.swift in Sources */,
 				1D10C0CC26014B400076565C /* AppDelegate.swift in Sources */,
+				1D47E7262611766500BEF25C /* GnarSignUp.swift in Sources */,
 				1D10C0E426015CDA0076565C /* Rules.swift in Sources */,
 				1D602A2D2603F6AE007B7EE4 /* RulesDetail.swift in Sources */,
 				1D602A1A26031761007B7EE4 /* Helper.swift in Sources */,
@@ -339,6 +416,7 @@
 		};
 		1D10C0DD26014B420076565C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 962E259E9CBBFCAC2E4BAEE7 /* Pods-GNAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -360,6 +438,7 @@
 		};
 		1D10C0DE26014B420076565C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67614EEE07CF9E74FF3DCCFF /* Pods-GNAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

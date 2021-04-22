@@ -8,6 +8,6 @@ target 'GNAR' do
   # Pods for GNAR
   pod 'Firebase/Analytics'
   pod 'Firebase/Auth'
-
+  pod 'Firebase/Firestore'
 
 end
